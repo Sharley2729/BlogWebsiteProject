@@ -1,15 +1,5 @@
 # Blog Website Project -  Udacity [Front End Web Development Nano Degree]
 
-Reviewer Feedback:
-
-"Congratulations👏 on passing the Personal Blog Website project! I was very impressed with your work. You clearly put a lot of thought and effort into your project, and it shows. I especially liked the way you used HTML5 semantic tags to make your code more readable and understandable. You also did a great job of using CSS to style your website. The overall look and feel of your website is very professional and polished.
-
-I also appreciate that you took the time to add some extra features to your website, such as the social sharing buttons and the contact form. These features make your website more interactive and user-friendly.
-
-Overall, I am very impressed with your work on this project. You have clearly demonstrated a good understanding of how to create a well-designed and functional personal blog website. I am confident that you will continue to do great things in your future web development endeavors.🏆"
-
-Grade: Passed
-
 
 ![Screenshot (22)](https://github.com/Sharley2729/BlogWebsiteProject/assets/133542216/0bd2fc16-cc2d-4870-8b1f-b8d4cf37d2ef)
 
@@ -24,6 +14,17 @@ Grade: Passed
 
 
 ![Screenshot (26)](https://github.com/Sharley2729/BlogWebsiteProject/assets/133542216/8ab180f3-6131-4369-a951-36e14ab87cca)
+
+Reviewer Feedback:
+
+"Congratulations👏 on passing the Personal Blog Website project! I was very impressed with your work. You clearly put a lot of thought and effort into your project, and it shows. I especially liked the way you used HTML5 semantic tags to make your code more readable and understandable. You also did a great job of using CSS to style your website. The overall look and feel of your website is very professional and polished.
+
+I also appreciate that you took the time to add some extra features to your website, such as the social sharing buttons and the contact form. These features make your website more interactive and user-friendly.
+
+Overall, I am very impressed with your work on this project. You have clearly demonstrated a good understanding of how to create a well-designed and functional personal blog website. I am confident that you will continue to do great things in your future web development endeavors.🏆"
+
+Grade: Passed
+
 
 Project Summary
 -
