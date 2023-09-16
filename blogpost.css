@@ -1,0 +1,220 @@
+@media(max-width:499px) {
+
+.homepage {
+   background-color: rgb(255, 255, 255);
+   display: grid ;
+   grid-template-columns: 400px;
+   grid-template-rows: 325px 750px 3300px ;
+   grid-template-areas: 
+   "hd"
+   "main"
+   "feat"
+   "ft";
+   }
+}
+
+
+@media(min-width:500px) and (max-width:900px) {
+  
+.homepage {
+   background-color: rgb(255, 255, 255);
+   display: grid ;
+   grid-template-columns: 400px;
+   grid-template-rows: 325px 750px 3300px ;
+   grid-template-areas: 
+   "hd hd hd hd hd"
+   "main main main main main"
+   "feat feat feat feat feat"
+   "ft ft ft ft ft";
+   }
+}
+
+
+@media(min-width:901px) {
+  
+.homepage {
+   background-color: rgb(255, 255, 255);
+   display: grid ;
+   grid-template-columns: 400px;
+   grid-template-rows: 325px 750px 3300px ;
+   grid-template-areas: 
+   "hd hd hd hd hd hd hd hd"
+   "main main main main main main main main"
+   "feat feat feat feat feat feat feat feat"
+   "ft ft ft ft ft ft ft ft";
+   }
+}
+
+
+.header {
+   grid-area: hd;
+   color:rgb(255, 243, 254);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-shadow: 10px 6px 20px rgba(180, 0, 105, 0.699);
+   font-size: 20pt;
+   text-align: center;
+   }
+
+
+ul {
+   list-style-type: none;
+   background-color: transparent;
+   margin: 0;
+   padding: 0;
+   font-size: 15pt;
+   }
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+  }
+
+
+li {
+   display: inline;
+   }
+
+
+li {
+   float: left;
+   }
+
+
+li a {
+   display: block;
+   color: rgb(236, 196, 230);
+   text-align: center;
+   padding: 14px, 16px;
+   text-decoration: none;
+   text-shadow: none;
+   }
+
+
+li a:hover {
+   background-color: rgb(255, 168, 236);
+   color: white;
+   }
+
+
+a {
+   color: rgb (241,178, 226);
+   text-decoration: none;
+   background-color: white;
+   width: 300px;
+   height: 50px;
+   }
+ 
+
+.social {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   }
+
+
+.icon {
+   display: flex;
+   flex-direction: row;
+   width: 40px;
+   height: 40px;
+   margin: 10px;
+   }
+
+
+.bio {    
+   grid-area: main;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   }
+
+
+.box {
+   width: 600px;
+   height: 600px;
+   margin: 10px;
+   padding-top: 30px;
+   color:rgb(0, 0, 0);
+   border-radius: 20%;
+   text-align: center;
+   box-shadow: 0 4px 15px rgb(243, 184, 213);
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+.blog {
+   grid-area: feat;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.blogheader {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  }
+
+
+.blogtitle {
+   grid-area: feat;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-image: url("https://wallpapers.com/images/featured-small/pink-texture-background-3dq5imvjok0scikq.jpg");
+   background-size: contain;
+   justify-content: center;
+   align-items: center;
+   }
+
+
+.blogcontent {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 3000px;
+   background-image: url("https://img.freepik.com/premium-photo/elegant-pink-peony-flower-pastel-pink-background-flat-lay-top-view-delicate-aesthetic-minimalist-floral-composition_408798-10402.jpg");
+   justify-content: center;
+   align-items: center;
+   }
+
+.p {
+   font-size: 5pt;
+   }
+  
+ 
+div.polaroid {
+   width: 250px;
+   padding: 10px;
+   margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+   
+div.container {
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 5px 10px;
+   justify-content: center;
+   color:black;
+   }
+   
+ 
+.footer {
+   grid-area: ft;
+   background-color: rgb(158, 158, 158);
+   color: white;
+   }

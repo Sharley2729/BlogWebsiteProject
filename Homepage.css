@@ -1,0 +1,97 @@
+@import url(Homepageheader.css);
+@import url(Homepagemaincontent.css);
+@import url(HomepageBlogandMerchCard.css);
+
+
+@media(max-width:499px) { 
+
+.homepage {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvZypLTLaB7iBZuPg_5rH98tHIZLdGa_pkg&usqp=CAU");
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 200px 500px 500px 500px;
+   grid-template-areas:
+   "hd"
+   "main"
+   "feat"
+   "ft"; 
+   }
+}
+
+
+@media(min-width:500px) and (max-width:900px) {
+
+.homepage {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvZypLTLaB7iBZuPg_5rH98tHIZLdGa_pkg&usqp=CAU");
+   display: grid ;
+   grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 200px 500px ;
+   grid-template-areas: 
+   "hd hd hd hd hd hd "
+   "main main main main main main "
+   "feat feat feat feat feat feat "
+   "ft ft ft ft ft ft ";
+   }
+}
+
+
+@media(min-width:901px) {
+
+.homepage {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvZypLTLaB7iBZuPg_5rH98tHIZLdGa_pkg&usqp=CAU");
+   display: grid ;
+   grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 200px 500px 700px 140px 600px;
+   grid-template-areas: 
+   "hd hd hd hd hd hd hd hd"
+   "main main main main main main main main"
+   "feat feat feat feat feat feat feat feat"
+   "head head head head head head head head"
+   "sec sec sec sec sec sec sec sec"
+   "ft ft ft ft ft ft ft ft";
+   } 
+}
+
+.writing {
+   grid-area: head;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   text-align: center;
+   font-family: Verdana, Tahoma, sans-serif;
+   }
+
+
+.sectionthree {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   grid-area: sec;
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   }
+
+
+
+.photocontainer {
+   display: flex;
+   flex-direction: row;
+   padding-top: 35px;
+   justify-content: center;
+   }
+
+
+.photobox {
+   display: flex;
+   flex-direction: row;
+   width: 400px;
+   height: 400px;
+   font-family: Verdana, Tahoma, sans-serif;
+   }
+
+
+.footer {
+   grid-area: ft;
+   background-color: rgb(158, 158, 158);
+   color: rgb(255, 255, 255);
+   }
