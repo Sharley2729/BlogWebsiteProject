@@ -43,8 +43,8 @@ Structure
 
 Design
 - Custom images, layout, and styling.
-- Typography: Custom design for typography with at least 3 unique properties for each typography selector. Headers (h1 to h3 at minimum) <h1>. Paragraph Text <p> a. Bold b. Italic c. Underlined
-  Links <a>
+- Typography: Custom design for typography with at least 3 unique properties for each typography selector. Headers (h1 to h3 at minimum). Paragraph Text, Bold, Italic, Underlined,
+  Links.
   Quotes
   Colors: At least 3 colors are used.
   Components
@@ -56,7 +56,7 @@ Design
   Patterns
 - The general pattern of the webpage should be as follows:
 
- (Blog Homepage)
+- (Blog Homepage)
   Navbar,
   Blog Post Card,
   Card,
@@ -64,7 +64,7 @@ Design
   Buttons,
   Footer.
 
- (Blog Post)
+- (Blog Post)
   Header,
   Author Info,
   Name,
